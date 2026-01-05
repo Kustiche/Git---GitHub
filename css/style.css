@@ -9,7 +9,7 @@
 @font-face {
   font-family: 'Verbana';
   src: url('../fonts/Verdana-Bold.woff2') format('woff2');
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
@@ -21,6 +21,49 @@
 body {
   margin: 0;
   font-family: Verbana, sans-serif;
-  font-weight: 400;
   font-size: 32px;
+  color: #000000;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1240px;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+  font-size: 40px;
+}
+
+.hero {
+  padding: 160px 0;
+  background-color: #c8fff2;
+}
+
+.hero__title {
+  margin-bottom: 140px;
+}
+
+.hero__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__img {
+  width: 235px;
+  height: 230px;
+}
+
+.hero__text {
+  margin: 0;
+  margin-bottom: 60px;
+  max-width: 885px;
+  font-family: JetBrainsMono, sans-serif;
+}
+
+.hero__text:last-child {
+  margin-bottom: 0;
 }
