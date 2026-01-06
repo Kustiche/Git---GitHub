@@ -1,0 +1,15 @@
+.advantages {
+  padding: 160px 0 150px 0;
+  background-color: #a0ffe8;
+
+  &__title {
+    margin-bottom: 100px;
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1185px;
+  }
+}

@@ -1,0 +1,30 @@
+.hero {
+  padding: 160px 0;
+  background-color: #c8fff2;
+
+  &__title {
+    margin-bottom: 140px;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__img {
+    width: 235px;
+    height: 230px;
+  }
+
+  &__text {
+    margin: 0;
+    margin-bottom: 60px;
+    max-width: 885px;
+    font-family: JetBrainsMono, sans-serif;
+  }
+
+  &__text:last-child {
+    margin-bottom: 0;
+  }
+}
